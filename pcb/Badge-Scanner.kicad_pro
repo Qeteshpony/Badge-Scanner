@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.02,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -183,6 +183,8 @@
         0.0,
         0.2,
         0.25,
+        0.3,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -470,6 +472,57 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -477,7 +530,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "V*"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*Batt+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*/BattSwd"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -553,7 +627,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -614,6 +688,14 @@
     [
       "e99cd76d-c117-4654-ad48-596a9e3de149",
       "Root"
+    ],
+    [
+      "265dd7b3-4c57-4927-af43-2ab583aa098f",
+      "SDCard"
+    ],
+    [
+      "0a7a7e59-ee25-477c-a5be-167264b2ebb9",
+      "Battery Management"
     ]
   ],
   "text_variables": {
