@@ -107,145 +107,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -1078,6 +939,164 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(arc
+					(start 0 -3.175)
+					(mid 3.1612 0)
+					(end 0 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -3593,16 +3612,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 111.76) (xy 198.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d75d0a-6a74-4035-8f33-28abf593b9e8")
-	)
-	(wire
-		(pts
 			(xy 189.23 39.37) (xy 196.85 39.37)
 		)
 		(stroke
@@ -3613,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 196.85 111.76)
+			(xy 196.85 105.41) (xy 196.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3930,6 +3939,16 @@
 			(type default)
 		)
 		(uuid "d584801d-d25e-4397-8ac3-429cfbf55480")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69aa943-2948-4e09-9492-a9c68714b015")
 	)
 	(wire
 		(pts
@@ -4366,14 +4385,14 @@
 		)
 		(uuid "82c65fd0-7194-4566-bd66-59b28fd95c5e")
 	)
-	(label "BzrOut"
-		(at 196.85 116.84 180)
+	(label "BZ-"
+		(at 196.85 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "87cd44cb-e9ed-4112-b797-ee7dbe4ab46f")
 	)
@@ -4989,17 +5008,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 203.2 114.3 0)
-		(mirror x)
+		(lib_id "Device:Buzzer")
+		(at 200.66 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1301012c-7b51-4f80-b6cb-90651b17486f")
-		(property "Reference" "J5"
-			(at 205.232 114.2421 0)
+		(fields_autoplaced yes)
+		(uuid "0d002d4b-d71b-4682-b27f-6d2edfc07e1d")
+		(property "Reference" "BZ1"
+			(at 204.47 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5027,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 205.232 111.8179 0)
+			(at 204.47 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,8 +5035,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 203.2 114.3 0)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+			(at 200.025 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 114.3 0)
+			(at 200.025 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,40 +5053,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 114.3 0)
+		(property "Description" "Buzzer, polarized"
+			(at 200.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C2319"
-			(at 203.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68221502-a8f0-4212-a615-585ce2e1a6ce")
 		)
 		(pin "2"
-			(uuid "ad47758b-0779-4833-aaa0-9bd6fae48e1e")
+			(uuid "f9842627-466d-493b-8ffb-35f150b400b4")
+		)
+		(pin "1"
+			(uuid "c06a104e-3fde-4553-a7e2-f12c76211ceb")
 		)
 		(instances
-			(project "badge-scanner"
-				(path "/6d110148-e14d-4f93-ae7d-03d7c3052bd1"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-			(project "Badge-Scanner"
+			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149"
-					(reference "J3")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
