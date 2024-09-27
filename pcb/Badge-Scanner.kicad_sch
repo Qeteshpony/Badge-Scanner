@@ -3431,6 +3431,10 @@
 		(uuid "ec8a58e4-c22c-41f8-82dc-5048dccb76ca")
 	)
 	(no_connect
+		(at 81.28 111.76)
+		(uuid "019f6c4a-ab7a-41fe-b645-2f35c9a1a1aa")
+	)
+	(no_connect
 		(at 81.28 60.96)
 		(uuid "1ee8f412-4b33-42ab-8be7-75f2cbade579")
 	)
@@ -3453,10 +3457,6 @@
 	(no_connect
 		(at 50.8 43.18)
 		(uuid "5e750d98-def7-4d87-a1fa-14388691f4f5")
-	)
-	(no_connect
-		(at 81.28 58.42)
-		(uuid "737dc9bb-5f57-4ecc-80a8-a63718467d6e")
 	)
 	(no_connect
 		(at 50.8 45.72)
@@ -4112,7 +4112,7 @@
 	)
 	(text "IN"
 		(exclude_from_sim no)
-		(at 92.456 110.998 0)
+		(at 92.456 57.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4375,7 +4375,7 @@
 		(uuid "8137d5ad-90fd-4205-8dc8-33d9ddeed8ba")
 	)
 	(label "~{PwrButton}"
-		(at 81.28 111.76 0)
+		(at 81.28 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
