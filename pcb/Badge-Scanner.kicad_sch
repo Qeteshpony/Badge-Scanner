@@ -4286,7 +4286,7 @@
 		)
 		(uuid "4fe96a3f-2e14-46f3-90b1-7a1af0f3e59e")
 	)
-	(label "~{BattPwrOff}"
+	(label "BattPwrOff"
 		(at 81.28 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4528,7 +4528,7 @@
 		)
 		(uuid "b115c52c-0a7d-48d8-9a1c-43d202b3eaf5")
 	)
-	(label "~{BattPwrOff}"
+	(label "BattPwrOff"
 		(at 246.38 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5054,6 +5054,15 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C252938"
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -8857,7 +8866,7 @@
 			)
 			(uuid "858d013a-0f41-468c-9f61-5ac4fb196641")
 		)
-		(pin "~{BattPwrOff}" input
+		(pin "BattPwrOff" input
 			(at 246.38 77.47 180)
 			(effects
 				(font
