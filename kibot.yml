@@ -28,25 +28,16 @@ outputs:
     type: pdf_sch_print
     dir: .
 
-  - name: 'print_front'
-    comment: "Print F.Cu"
+  - name: 'print_pcb'
+    comment: "Print Layers to PDF"
     type: pcb_print
     dir: .
-    layers:
-      - layer: F.Cu
-      - layer: F.Silkscreen
-      - layer: Edge.Cuts
-      - layer: User.1
-
-  - name: 'print_bottom'
-    comment: "Print B.Cu"
-    type: pcb_print
-    dir: .
-    layers:
-      - layer: B.Cu
-      - layer: B.Silkscreen
-      - layer: Edge.Cuts
-      - layer: User.1
+    options:
+      - force_edge_cuts: true
+      - pages:
+          - layers: [F.Cu, F.Silkscreen, User.1]
+          - layers: [B.Cu, B.Silkscreen, User.1]
+            mirror: true
 
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials (HTML)"
