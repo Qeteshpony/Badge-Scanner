@@ -1164,7 +1164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2319"
+		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
