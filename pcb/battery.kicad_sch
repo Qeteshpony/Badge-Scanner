@@ -3523,7 +3523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ab2adf3-f4be-43a2-9dce-b54ef6901fbf")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 242.3414 67.3679 0)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3802bdf3-0098-4246-9478-719137bc609a")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 158.75 91.4399 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3990,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b2ae580-2a53-4e75-b74b-cb0f1f7a6168")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR043"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -4040,7 +4040,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "#PWR051")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b5450e7-36ff-4490-a2dc-207ae96e1d17")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 170.18 91.4399 0)
 			(effects
 				(font
@@ -4119,7 +4119,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "445a5235-79b1-4012-ab8f-d944d6b365c2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 201.93 119.38 0)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4351,7 +4351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ef8412-5d96-404a-8b72-593730912abe")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 167.64 82.55 90)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 167.64 85.09 90)
 			(effects
 				(font
@@ -4394,7 +4394,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C11702"
 			(at 167.64 87.63 0)
 			(effects
 				(font
@@ -4412,7 +4412,7 @@
 		(instances
 			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4938,7 +4938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9389f895-7915-4d39-b3cb-bd9272921f22")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 165.354 104.14 0)
 			(effects
 				(font
@@ -4999,7 +4999,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5015,7 +5015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95ed507a-1f7d-4ebe-9fde-43c9aebd4ef9")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 63.5 69.8499 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 		(instances
 			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5332,7 +5332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a3de11-e1c5-4898-a10d-f1dc458259a4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 243.84 80.01 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf20eaf-16c7-47c5-ab8a-c06c3bfb80cb")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 86.36 68.5799 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 		(instances
 			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5484,7 +5484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac5e6bc8-d632-4a3f-bbe6-2c865162545a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 180.34 119.38 0)
 			(effects
 				(font
@@ -5534,7 +5534,7 @@
 		(instances
 			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5550,7 +5550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a451a5-06c8-414a-bf70-a79094a4bf84")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 214.63 99.0599 0)
 			(effects
 				(font
@@ -5613,7 +5613,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5715,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beffa183-93c8-4f5d-bff0-79b83bb3f02d")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 118.11 62.2299 0)
 			(effects
 				(font
@@ -5784,7 +5784,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5801,7 +5801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f6ae32-21a6-4a6e-be03-6c98fd36c629")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 124.46 72.3899 0)
 			(effects
 				(font
@@ -5864,7 +5864,7 @@
 		(instances
 			(project ""
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6337,7 +6337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8fbd679-aac1-4480-8661-2faca2874341")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 119.38 82.5499 0)
 			(effects
 				(font
@@ -6400,7 +6400,7 @@
 		(instances
 			(project "Badge-Scanner"
 				(path "/e99cd76d-c117-4654-ad48-596a9e3de149/0a7a7e59-ee25-477c-a5be-167264b2ebb9"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
