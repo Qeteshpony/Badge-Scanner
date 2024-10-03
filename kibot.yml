@@ -33,11 +33,11 @@ outputs:
     type: pcb_print
     dir: .
     options:
-      - force_edge_cuts: true
-      - pages:
-          - layers: [F.Cu, F.Silkscreen, User.1]
-          - layers: [B.Cu, B.Silkscreen, User.1]
-            mirror: true
+      force_edge_cuts: true
+      pages:
+        - layers: [F.Cu, F.Silkscreen, User.1]
+        - layers: [B.Cu, B.Silkscreen, User.1]
+          mirror: true
 
   - name: 'interactive_bom'
     comment: "Interactive Bill of Materials (HTML)"
