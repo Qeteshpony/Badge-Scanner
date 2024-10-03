@@ -18693,24 +18693,24 @@
 		(uuid "eb28b408-3a20-4d48-b849-ab20a2722cf6")
 	)
 	(gr_text " 0>UART0 TX\n 1<UART0 RX\n 2>LED\n 3>Buzzer\n 4=I2C0 SDA\n 5>I2C0 SCL\n 6<~{Button}\n 8<~{Charge Active}\n 9<~{Charge Standby}\n27>Power Off\n28<Battery Voltage	"
-		(at 164.5 115.75 0)
+		(at 165 118.5 0)
 		(layer "B.SilkS")
 		(uuid "3684d976-c579-4b2b-9730-e5af5af41bb1")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.4 1.5)
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SD-Card SPI1\n11	DETECT\n12	MISO\n13	CS\n14	SCK\n15	MOSI\n\nNFC SPI0\n16	MISO\n17	CS\n18	SCK\n19	MOSI\n20	RST\n21	IRQ"
-		(at 105 115.75 0)
+	(gr_text "SD-Card\n(SPI1)\n11<DET\n12<MISO\n13>CS\n14<SCK\n15>MOSI\n\nNFC \n(SPI0)\n16<MISO\n17>CS\n18>SCK\n19>MOSI\n20>RST\n21<IRQ"
+		(at 104.75 118 0)
 		(layer "B.SilkS")
 		(uuid "be8ec557-6b40-44a4-8702-c02dc4e4bafe")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.4 1.5)
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
@@ -19274,6 +19274,33 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "056189b1-7eb2-49ed-935c-bc7ec0f1d0eb")
+	)
+	(via
+		(at 120 116.25)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 7)
+		(uuid "5d99442f-efcb-4408-a4ed-9dce30532dc4")
+	)
+	(via
+		(at 130 116.25)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 7)
+		(uuid "c3803da7-6e44-4342-85b2-d866cb8cfe73")
+	)
+	(via
+		(at 125 116.25)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 7)
+		(uuid "f37e04af-5a3f-4770-b527-8092588d092d")
 	)
 	(segment
 		(start 112.62 120)
