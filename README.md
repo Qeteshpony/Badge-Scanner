@@ -3,6 +3,7 @@
 [![CI](https://github.com/Qeteshpony/Badge-Scanner/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Qeteshpony/Badge-Scanner/actions/workflows/ci.yml)
 
 ![3D Render](https://qeteshpony.github.io/Badge-Scanner/3D/Badge-Scanner-3D_top.png)
+![3D Render](https://qeteshpony.github.io/Badge-Scanner/3D/Badge-Scanner-3D_bottom.png)
 
 [Hardware Documentation](https://qeteshpony.github.io/Badge-Scanner)
 
