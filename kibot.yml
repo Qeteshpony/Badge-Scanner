@@ -80,6 +80,7 @@ outputs:
     output_id: 3Dtop
     options:
       ray_tracing: true
+      view: top
       rotate_x: 3
       rotate_z: -1
 
@@ -90,8 +91,9 @@ outputs:
     output_id: 3Dbottom
     options:
       ray_tracing: true
-      rotate_x: -15
-      rotate_z: -17
+      view: bottom
+      rotate_x: 3
+      rotate_z: 1
 
   - name: navigate_results
     comment: "Navigate Results"
