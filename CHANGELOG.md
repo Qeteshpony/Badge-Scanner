@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.0.1...v1.1.0) (2024-10-10)
+
+
+### Features
+
+* add 3V reference for ADC ([cf62406](https://github.com/Qeteshpony/Badge-Scanner/commit/cf62406581093d005cda2081bfa9a6592ed4250c))
+* add LiPo Circuitry ([dd25cb7](https://github.com/Qeteshpony/Badge-Scanner/commit/dd25cb7b9406531f7258caf2d13a5172d410a66b))
+* optional fan connector ([cf62406](https://github.com/Qeteshpony/Badge-Scanner/commit/cf62406581093d005cda2081bfa9a6592ed4250c))
+* place power button on the board ([8ff2f97](https://github.com/Qeteshpony/Badge-Scanner/commit/8ff2f97b8e190eabf7110a3696123f16641124c3))
+
+
+### Bug Fixes
+
+* add FET to measurement circuit ([584d771](https://github.com/Qeteshpony/Badge-Scanner/commit/584d7710a7379c05beeacbe2760a5b00a8ae9317))
+* change resistor values for batt measurement ([623a018](https://github.com/Qeteshpony/Badge-Scanner/commit/623a018b7e6f91680762113eeb0c79d38aea8e0a))
+* power switch circuit capacitance ([62879cc](https://github.com/Qeteshpony/Badge-Scanner/commit/62879cc400304d529d634c17997c11a03bb8ad99))
+* remove wrong order number from SW1 ([87b65c3](https://github.com/Qeteshpony/Badge-Scanner/commit/87b65c3f2e208ec1de422eee4647292d34436d83))
+* replace buzzer footprint ([c3924ff](https://github.com/Qeteshpony/Badge-Scanner/commit/c3924ffa6d855b0646060dfe17f83f52a8e4fc2d))
+
 ## [1.0.1](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.0.0...v1.0.1) (2024-06-16)
 
 
