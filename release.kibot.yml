@@ -12,13 +12,13 @@ import:
   - file: kibot.yml
     outputs:
       - print_sch
-      - print_front
-      - print_bottom
+      - print_pcb
       - interactive_bom
       - pcb_top
       - pcb_bot
       - step
-      - basic_render_3d_30deg
+      - basic_render_3d_top
+      - basic_render_3d_bottom
     filters: all
     global: none
     preflights: none
@@ -153,5 +153,7 @@ outputs:
           dest: /
         - from_output: step
           dest: /
-        - from_output: basic_render_3d_30deg
+        - from_output: basic_render_3d_top
+          dest: /
+        - from_output: basic_render_3d_bottom
           dest: /
