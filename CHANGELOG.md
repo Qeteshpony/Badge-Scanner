@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.1.0...v1.1.1) (2024-10-17)
+
+
+### Bug Fixes
+
+* move power LED to 3.3V rail ([da311a9](https://github.com/Qeteshpony/Badge-Scanner/commit/da311a986510c80a8789e43ebd1766c8498b42f8))
+* turn around UART connector ([8cec761](https://github.com/Qeteshpony/Badge-Scanner/commit/8cec7613ee7b15c8cf737b2755fb1b465d007742))
+
 ## [1.1.0](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.0.1...v1.1.0) (2024-10-10)
 
 
