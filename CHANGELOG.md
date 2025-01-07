@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.2.0...v1.2.1) (2025-01-07)
+
+
+### Bug Fixes
+
+* re-release because of CI error ([4e137a9](https://github.com/Qeteshpony/Badge-Scanner/commit/4e137a9f02b33090910d54171756a40c091cc72e))
+
 ## [1.2.0](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.1.0...v1.2.0) (2025-01-07)
 
 
