@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.1.0...v1.2.0) (2025-01-07)
+
+
+### Features
+
+* add reset button ([ce9ba01](https://github.com/Qeteshpony/Badge-Scanner/commit/ce9ba016b1cea4d7037d31c198c72740869c3f52))
+
+
+### Bug Fixes
+
+* add caps to delay startup of mcu ([efc946f](https://github.com/Qeteshpony/Badge-Scanner/commit/efc946f88fe66d377718ba1914e0ad7f4b4c1205))
+* move measurement to BattSwd ([5e56296](https://github.com/Qeteshpony/Badge-Scanner/commit/5e562964bb7d4a31f9dfc941cf2e9115cc26b03e))
+* move power LED to 3.3V rail ([da311a9](https://github.com/Qeteshpony/Badge-Scanner/commit/da311a986510c80a8789e43ebd1766c8498b42f8))
+* turn around UART connector ([8cec761](https://github.com/Qeteshpony/Badge-Scanner/commit/8cec7613ee7b15c8cf737b2755fb1b465d007742))
+
 ## [1.1.0](https://github.com/Qeteshpony/Badge-Scanner/compare/v1.0.1...v1.1.0) (2024-10-10)
 
 
