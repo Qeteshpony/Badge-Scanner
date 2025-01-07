@@ -141,9 +141,7 @@ outputs:
       files:
         - from_output: print_sch
           dest: /
-        - from_output: print_front
-          dest: /
-        - from_output: print_bottom
+        - from_output: print_pcb
           dest: /
         - from_output: interactive_bom
           dest: /

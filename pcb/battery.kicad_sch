@@ -2853,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 71.12) (xy 177.8 71.12)
+			(xy 177.8 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 71.12) (xy 163.83 71.12)
+			(xy 157.48 71.12) (xy 167.64 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3193,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 177.8 73.66)
+			(xy 181.61 71.12) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3250,6 +3250,18 @@
 			(type default)
 		)
 		(uuid "ff23254b-bb10-47af-89c0-5407b276847a")
+	)
+	(rectangle
+		(start 166.37 58.42)
+		(end 195.58 82.55)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1406e60-62a4-4327-8046-8eef940e1441)
 	)
 	(text_box "Power Switch Circuit"
 		(exclude_from_sim no)
@@ -3365,6 +3377,16 @@
 			)
 		)
 		(uuid "4c55e877-2b9c-4489-8efc-92105ebd21d7")
+	)
+	(text "Manual Power off override"
+		(exclude_from_sim no)
+		(at 180.848 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55347743-9db8-4301-bd91-1cb598245e43")
 	)
 	(text "From GPIO"
 		(exclude_from_sim no)
@@ -3604,7 +3626,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 73.66 0)
+		(at 181.61 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3613,7 +3635,7 @@
 		(fields_autoplaced yes)
 		(uuid "21b00d47-45e8-45cb-9ced-b31f79245766")
 		(property "Reference" "#PWR054"
-			(at 177.8 80.01 0)
+			(at 181.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 78.74 0)
+			(at 181.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 73.66 0)
+			(at 181.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 73.66 0)
+			(at 181.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3670,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 73.66 0)
+			(at 181.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5028,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 168.91 71.12 0)
+		(at 172.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5015,7 +5037,7 @@
 		(fields_autoplaced yes)
 		(uuid "8da1d040-cf70-466a-b5ae-d7b9a50dcf6a")
 		(property "Reference" "SW2"
-			(at 168.91 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5045,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 168.91 66.04 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
-			(at 168.91 66.04 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 66.04 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5071,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 168.91 71.12 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
